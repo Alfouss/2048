@@ -10,6 +10,7 @@ window.onload = function(event) {
   }
 
   let grid;
+  
 
   function setup() {
     grid = arrEmpty()
