@@ -52,7 +52,7 @@ window.onload = function(event) {
     var parent = document.getElementById('test');
     parent.style.height = "415x";
     parent.style.width = "415px";
-    parent.style.border = "8px solid black";
+    parent.style.border = "8px solid orange";
 
     //CREATE ROW
     for (let i = 0; i < 4; i++) {
@@ -83,11 +83,11 @@ window.onload = function(event) {
       }
     }
 
-    for (let j = 0; j < 4; j++) {   //CREATE BLOCK RED FOR CASE
+    for (let j = 0; j < 4; j++) {   //CREATE BLOCK Orange FOR CASE
       for (let l = 0; l < 4; l++) {
         var parent2 = document.getElementsByClassName('case-' + j);
 
-        parent2[l].style.border = "2px solid red";
+        parent2[l].style.border = "2px solid orange";
         parent2[l].style.borderRadius = "8px";
         parent2[l].style.height = "100px";
         parent2[l].style.width = "100px";

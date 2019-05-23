@@ -9,31 +9,42 @@
 <h1 class="center">2048</h1>
 <style>
     html{
-        background: url('https://www.ilovewallpaper.ie/images/photographic-slate-effect-wallpaper-charcoal-grey-ilw004-p2443-8943_image.jpg');
+        background: no-repeat url(./img/fox.jpg);
+        background-size: cover;
+        background-position-y: -292px;
     }
     .center{
         text-align: center;
         font-size: 65px;
-        color: black;
+        color: orange;
+    }
+    .center a{
+        text-decoration: none;
+        list-style: none;
+        color: orange;
     }
     #test{
         border-radius: 8px;
         padding: 8px;
-        margin-left: 44em;
-        margin-top: 8em;
-
     }
-    a{
-        color:black;
+    #line-0, #line-1, #line-2, #line-3{
+        opacity: 0.8;
+    }
+
+    #box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 </style>
 
-<div id="test"></div>
+<div id="box">
+    <div id="test"></div>
+</div>
 
 <script src="./js/script.js">
 </script>
 <p class="center"><a href="2048.html">Restart</a></p>
-
 </body>
 </html>
