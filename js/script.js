@@ -26,7 +26,8 @@ window.onload = function(event) {
     for (let i = 0; i < 4; i++) {
       for (let j = 0; j < 4; j++) {
         if (grid[i][j] === 0) {
-          options.push({ //PUSH THE TABLE OBJECT THE ARRAY
+          //PUSH THE TABLE OBJECT THE ARRAY
+          options.push({ 
             x: i,
             y: j
           })
@@ -253,12 +254,14 @@ window.onload = function(event) {
         }
         else if(grid[g][l] == 4){
           parent2[g].style.backgroundColor = 'blue';
+          parent2[g].style.color = "white"
         }
         else if(grid[g][l] == 8){
           parent2[g].style.backgroundColor = 'red';
         }
         else if(grid[g][l] == 16){
           parent2[g].style.backgroundColor = 'brown';
+          parent2[g].style.color = "white"
         }
         else if(grid[g][l] == 32){
 

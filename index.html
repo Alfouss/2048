@@ -1,50 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="./js/script.js"></script>
-</head>
-<body>
-<h1 class="center">2048</h1>
-<style>
-    html{
-        background: no-repeat url(./img/fox.jpg);
-        background-size: cover;
-        background-position-y: -292px;
-    }
-    .center{
-        text-align: center;
-        font-size: 65px;
-        color: orange;
-    }
-    .center a{
-        text-decoration: none;
-        list-style: none;
-        color: orange;
-    }
-    #test{
-        border-radius: 8px;
-        padding: 8px;
-    }
-    #line-0, #line-1, #line-2, #line-3{
-        opacity: 0.8;
-    }
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+            <link  type="text/css" href="style.css"  rel="stylesheet"> 
+    </head>
+    <body>
+        <h1 class="center">2048</h1>
 
-    #box{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+        <div id="box">
+            <div id="test"></div>
+        </div>
 
-</style>
-
-<div id="box">
-    <div id="test"></div>
-</div>
-
-<script src="./js/script.js">
-</script>
-<p class="center"><a href="2048.html">Restart</a></p>
-</body>
+        <script src="./js/script.js"></script>
+        <p class="center"><a href="2048.html">Restart</a></p>
+    </body>
 </html>

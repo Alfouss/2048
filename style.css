@@ -1,0 +1,29 @@
+html{
+    background: no-repeat url(./img/fox.jpg);
+    background-size: cover;
+    background-position-y: -292px;
+}
+.center{
+    text-align: center;
+    font-size: 65px;
+    color: orange;
+}
+.center a{
+    text-decoration: none;
+    list-style: none;
+    color: orange;
+}
+#test{
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#line-0, #line-1, #line-2, #line-3{
+    opacity: 0.8;
+}
